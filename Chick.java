@@ -1,4 +1,8 @@
-class Chick //implements Animal 
+class Chick implements Animal 
 {     
-     //your code here
+     String myType,mySound;
+     Chick(String inputType,String inputSound1, String inputSound2)
+     {
+     	myType = inputType;
+     }
 }
