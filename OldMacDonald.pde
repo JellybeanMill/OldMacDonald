@@ -1,5 +1,9 @@
 void setup()
 {
-	//your variable declarations here
+	Farm oldMcDonaldFarm = new Farm();
+	noLoop();
 }
-
+void draw()
+{
+	oldMcDonaldFarm.animalSounds();
+}
