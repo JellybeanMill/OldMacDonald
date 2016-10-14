@@ -2,11 +2,6 @@ class Pig extends Cow
 {
 	private String myType;
 	private String mySound;
-	public Pig()
-     {
-     	myType = "UNKNOWN";
-     	mySound = "UNKNOWN";
-     }
      public Pig(String inputType, String inputSound)
      {
      	myType = inputType;
@@ -17,4 +12,8 @@ class Pig extends Cow
 		String toBeReturned = mySound + " " + mySound;
 		return toBeReturned;
 	}
+     public String getType()
+     {
+          return myType;
+     }
 }

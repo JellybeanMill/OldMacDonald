@@ -1,9 +1,5 @@
 void setup()
 {
-	Farm oldMcDonaldFarm = new Farm();
-	noLoop();
-}
-void draw()
-{
-	oldMcDonaldFarm.animalSounds();
+	Farm bob = new Farm();
+	bob.animalSounds();
 }
